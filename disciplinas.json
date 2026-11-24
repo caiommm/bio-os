@@ -1,0 +1,113 @@
+{
+  "disciplinas": {
+    "anatomia": {
+      "titulo": "Anatomia Humana",
+      "icone": "🦴",
+      "subtitulo": "Organização estrutural, sistemas orgânicos, fisiologia integrada e correlações clínicas",
+      "cor": "#E63946",
+      "submaterias": [
+        {
+          "id": "locomotor",
+          "nome": "Esqueleto, Articulações & Músculos",
+          "resumoDetalhado": "O sistema locomotor integra ossos, cartilagens, ligamentos, articulações e músculos estriados esqueléticos para sustentar o corpo, proteger órgãos vitais e gerar movimento. Os 206 ossos do adulto dividem-se em esqueleto axial (80 ossos: crânio, coluna vertebral, esterno e costelas) e apendicular (126 ossos: cinturas escapular e pélvica e membros). As articulações sinoviais possuem cápsula articular, membrana sinovial produtora de líquido lubrificante e cartilagem hialina de baixo atrito.",
+          "mecanismo": "Na fibra muscular esquelética, o impulso nervoso na junção neuromuscular libera acetilcolina, despolarizando o sarcolema e os túbulos T. Isso libera íons Ca²⁺ do retículo sarcoplasmático, que se ligam à troponina C, deslocando a tropomiosina e expondo os sítios de ligação da actina para a cabeça da miosina (ciclo das pontes cruzadas movido a ATP).",
+          "exemploClinico": "Na osteoporose, há perda de massa e microarquitetura óssea por desequilíbrio entre reabsorção (osteoclastos) e formação (osteoblastos), elevando o risco de fraturas em vértebras, fêmur e rádio.",
+          "referencia": "Moore, K. L., Dalley, A. F., & Agur, A. M. R. Anatomia Orientada para a Clínica, 8ª ed."
+        },
+        {
+          "id": "cardiorrespiratorio",
+          "nome": "Sistemas Cardiovascular & Respiratório",
+          "resumoDetalhado": "O coração funciona como uma bomba dupla: o lado direito recebe sangue venoso (pobre em O₂) pelas veias cavas e o envia aos pulmões pela artéria pulmonar (pequena circulação); o lado esquerdo recebe sangue oxigenado pelas veias pulmonares e o ejeta na aorta para todo o corpo (grande circulação). Nos pulmões, a hematose ocorre por difusão simples através da membrana alvéolo-capilar.",
+          "mecanismo": "A ventilação pulmonar depende de gradientes de pressão descritos pela Lei de Boyle: na inspiração, a contração do diafragma e intercostais externos aumenta o volume torácico e reduz a pressão intrapulmonar abaixo da atmosférica. No transporte sanguíneo, ~98,5% do O₂ viaja ligado à hemoglobina (oxi-hemoglobina), enquanto a maior parte do CO₂ é transportada como íon bicarbonato (HCO₃⁻) no plasma.",
+          "exemploClinico": "O infarto agudo do miocárdio ocorre geralmente pela obstrução de uma artéria coronária (frequentemente por placa aterosclerótica), privando o cardiomiócito de O₂ e ATP.",
+          "referencia": "Guyton, A. C., & Hall, J. E. Tratado de Fisiologia Médica, 13ª ed.; Tortora & Derrickson."
+        },
+        {
+          "id": "renal_digestorio_integrado",
+          "nome": "Homeostase Renal e Balanço Hídrico",
+          "resumoDetalhado": "Os rins filtram cerca de 180 litros de plasma por dia através dos glomérulos renais, produzindo ~1,5 a 2 litros de urina final após reabsorção seletiva nos túbulos contorcidos proximal e distal e no ducto coletor.",
+          "mecanismo": "A taxa de filtração glomerular (TFG) depende da pressão de filtração líquida nos capilares glomerulares. Ao longo do néfron, transportadores específicos reabsorvem glicose, aminoácidos e íons, enquanto a alça de néfron mantém alta osmolaridade intersticial medular.",
+          "exemploClinico": "O hormônio antidiurético (ADH/vasopressina) aumenta a permeabilidade à água no ducto coletor inserindo aquaporinas-2, concentrando a urina em estados de desidratação.",
+          "referencia": "Silverthorn, D. U. Fisiologia Humana: Uma Abordagem Integrada, 7ª ed."
+        },
+        {
+          "id": "sistema_endocrino_anatomia",
+          "nome": "Eixo Hipotálamo-Hipófise e Glândulas",
+          "resumoDetalhado": "O sistema endócrino regula processos lentos e duradouros — como crescimento, metabolismo, reprodução e estresse — por meio de hormônios transportados pela corrente sanguínea até células-alvo com receptores específicos.",
+          "mecanismo": "O hipotálamo controla a adeno-hipófise por hormônios liberadores/inibidores via sistema porta-hipofisário, e produz diretamente ADH e ocitocina, armazenados e liberados pela neuro-hipófise. Mecanismos de retroalimentação negativa (feedback) mantêm os níveis hormonais estáveis.",
+          "exemploClinico": "No hipotireoidismo primário, a baixa produção de T3 e T4 pela tireoide reduz o feedback negativo, elevando os níveis de TSH hipofisário.",
+          "referencia": "Guyton & Hall, Tratado de Fisiologia Médica, 13ª ed."
+        }
+      ],
+      "topicos": [
+        {
+          "titulo": "Planos Anatômicos e Esqueleto Axial",
+          "resumo": "A posição anatômica padrão serve de referência universal. O esqueleto axial (80 ossos) compreende crânio, coluna vertebral e caixa torácica, protegendo o sistema nervoso central e órgãos vitais.",
+          "destaque": "O osso hioide é o único osso do corpo humano que não se articula diretamente com nenhum outro osso.",
+          "referencia": "Moore, Dalley & Agur, Anatomia Orientada para a Clínica, 8ª ed."
+        },
+        {
+          "titulo": "Sistema Cardiovascular e Circulação Dupla",
+          "resumo": "O coração possui quatro câmaras que separam a circulação pulmonar (pequena circulação: ventrículo direito → pulmões → átrio esquerdo) da circulação sistêmica (grande circulação).",
+          "destaque": "As artérias coronárias são os primeiros ramos da aorta e irrigam o próprio miocárdio durante a diástole.",
+          "referencia": "Tortora & Derrickson, Princípios de Anatomia e Fisiologia, 14ª ed."
+        },
+        {
+          "titulo": "Tecido Muscular e Sarcômero",
+          "resumo": "A contração muscular ocorre pelo deslizamento dos filamentos finos de actina sobre os filamentos espessos de miosina, dependente de íons Ca²⁺ e hidrólise de ATP.",
+          "destaque": "O músculo sartório é o mais longo do corpo humano, enquanto o estapédio (na orelha média) é o menor.",
+          "referencia": "Netter, Atlas de Anatomia Humana, 7ª ed."
+        }
+      ],
+      "quizzes": [
+        {
+          "pergunta": "Qual vaso sanguíneo transporta sangue rico em oxigênio dos pulmões de volta para o átrio esquerdo do coração?",
+          "opcoes": ["Artéria pulmonar", "Veia cava superior", "Veias pulmonares", "Artéria aorta"],
+          "correta": 2,
+          "explicacao": "As veias pulmonares são uma exceção clássica: são veias (pois chegam ao coração), mas transportam sangue arterial (oxigenado) vindo dos alvéolos."
+        },
+        {
+          "pergunta": "Qual proteína bloqueia o sítio de ligação da miosina na actina quando a concentração de Ca²⁺ citosólico está baixa?",
+          "opcoes": ["Tropomiosina", "Miosina II", "Hemoglobina", "Colágeno tipo I"],
+          "correta": 0,
+          "explicacao": "Em repouso, a tropomiosina cobre os sítios ativos da actina; quando o Ca²⁺ liga-se à troponina, o complexo muda de forma e libera a interação actina-miosina."
+        }
+      ]
+    },
+    "evolucao": {
+      "titulo": "Evolução Biológica",
+      "icone": "🦍",
+      "subtitulo": "Seleção natural, genética populacional, especiação, filogenia e evolução do desenvolvimento",
+      "cor": "#FFB703",
+      "submaterias": [
+        {
+          "id": "genetica_populacional",
+          "nome": "Seleção Natural & Genética de Populações",
+          "resumoDetalhado": "A evolução em nível populacional é definida pela mudança nas frequências alélicas de uma geração para outra. Enquanto a seleção natural direciona a adaptação aumentando a frequência de alelos associados a maior fitness reprodutivo, a deriva genética altera frequências de forma estocástica (aleatória), sendo mais forte em populações pequenas.",
+          "mecanismo": "O modelo de Hardy-Weinberg (p² + 2pq + q² = 1) descreve uma população ideal sem evolução. Quando fatores como mutação, seleção, migração (fluxo gênico), deriva ou acasalamento não-aleatório atuam, as frequências observadas desviam-se da previsão.",
+          "exemploClinico": "Em regiões com alta incidência de malária por Plasmodium falciparum, heterozigotos para o alelo da anemia falciforme (HbA/HbS) apresentam vantagem seletiva contra formas graves da doença (polimorfismo balanceado).",
+          "referencia": "Futuyma, D. J., & Kirkpatrick, M. Evolution, 4ª ed.; Ridley, M. Evolução."
+        },
+        {
+          "id": "especiacao_cladistica",
+          "nome": "Especiação e Reconstrução Filogenética",
+          "resumoDetalhado": "Espécies biológicas são grupos de populações naturais que cruzam ou podem cruzar entre si e estão reprodutivamente isoladas de outros grupos. A especiação alopátrica envolve separação geográfica prévia; a simpátrica ocorre no mesmo espaço geográfico por poliploidia (comum em plantas), seleção disruptiva ou preferência de acasalamento.",
+          "mecanismo": "Na sistemática filogenética (cladística), agrupamentos válidos são monofiléticos (clado = ancestral comum exclusivo e todos os seus descendentes). Sinapomorfias são caracteres derivados compartilhados que definem clados.",
+          "exemploClinico": "A resistência rápida de bactérias e pragas agrícolas a antibióticos e pesticidas é um exemplo observável em tempo real de evolução por seleção natural.",
+          "referencia": "Mayr, E. O Que é a Evolução; Baum, D. A., & Smith, S. D. Tree Thinking."
+        },
+        {
+          "id": "evodevo_macroevolucao",
+          "nome": "Evo-Devo, Genes Hox e Macroevolução",
+          "resumoDetalhado": "A biologia evolutiva do desenvolvimento (Evo-Devo) investiga como alterações nos processos embrionários geram diversidade morfológica entre linhagens. Muitos genes reguladores do desenvolvimento (como os genes Hox, que definem o eixo anteroposterior em animais) são altamente conservados.",
+          "mecanismo": "Mudanças na expressão temporal (heterocronia), espacial (heterotopia) ou na duplicação e divergência de genes reguladores podem modificar planos corporais sem exigir a invenção de milhares de genes estruturais novos.",
+          "exemploClinico": "A perda de membros em serpentes associa-se a alterações na expressão e regulação de genes do desenvolvimento de membros durante a embriogênese.",
+          "referencia": "Carroll, S. B. Endless Forms Most Beautiful; Futuyma & Kirkpatrick, Evolution."
+        }
+      ],
+      "topicos": [
+        {
+          "titulo": "Seleção Natural e Adaptação",
+          "resumo": "Proposta por Charles Darwin e Alfred Russel Wallace, baseia-se em três pilares: variação hereditária entre indivíduos, competição por recursos limitados e sucesso reprodutivo diferencial.",
+          "destaque": "A seleção natural não 'cria' mutações por necessidade; ela filtra variações aleatórias pré-existentes no ambiente.",
+          "referencia": "Darwin, C., A Origem das Espécies (1859);

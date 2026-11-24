@@ -1,0 +1,199 @@
+{
+  "tiposCelula": {
+    "animal": {
+      "nome": "Célula Eucariótica Animal",
+      "descricao": "Célula sem parede celular ou cloroplastos, dotada de núcleo delimitado por envoltório nuclear e organelas membranosas especializadas.",
+      "organelas": [
+        {
+          "id": "nucleo",
+          "nome": "Núcleo Celular",
+          "analogia": "🏛️ A Prefeitura / Centro de Comando",
+          "funcao": "Armazena o material genético (DNA) organizado em cromossomos e coordena a síntese de RNA e a divisão celular.",
+          "curiosidade": "Se o DNA de uma única célula humana fosse esticado, teria cerca de 2 metros de comprimento.",
+          "referencia": "Alberts et al., Biologia Molecular da Célula, 6ª ed., Cap. 4."
+        },
+        {
+          "id": "mitocondria",
+          "nome": "Mitocôndria",
+          "analogia": "⚡ A Usina Termelétrica",
+          "funcao": "Realiza a respiração celular aeróbica (Ciclo de Krebs e Fosforilação Oxidativa), convertendo glicose e O₂ em ATP.",
+          "curiosidade": "Possui DNA próprio circular e ribossomos 70S, evidência central da Teoria Endossimbiótica de Lynn Margulis.",
+          "referencia": "Lehninger, Princípios de Bioquímica, 7ª ed., Cap. 19."
+        },
+        {
+          "id": "reticulo",
+          "nome": "Retículo Endoplasmático (Rugoso e Liso)",
+          "analogia": "🏭 A Linha de Montagem Industrial",
+          "funcao": "O RER (com ribossomos) sintetiza e dobra proteínas de exportação; o REL sintetiza lipídios, esteroides e desintoxica drogas.",
+          "curiosidade": "Células do fígado (hepatócitos) possuem retículo liso extremamente desenvolvido para metabolizar toxinas e álcool.",
+          "referencia": "Junqueira & Carneiro, Biologia Celular e Molecular, 9ª ed."
+        },
+        {
+          "id": "golgi",
+          "nome": "Complexo de Golgi",
+          "analogia": "📦 Os Correios / Centro de Empacotamento",
+          "funcao": "Modifica, classifica, empacota e endereça proteínas e lipídios em vesículas para secreção ou uso intracelular.",
+          "curiosidade": "Também é responsável por formar o acrossomo dos espermatozoides, essencial para perfurar o óvulo.",
+          "referencia": "Alberts et al., Biologia Molecular da Célula, 6ª ed., Cap. 13."
+        },
+        {
+          "id": "lisossomo",
+          "nome": "Lisossomo",
+          "analogia": "♻️ A Usina de Reciclagem",
+          "funcao": "Contém enzimas hidrolíticas ácidas (pH ~4,8) que digerem partículas englobadas (heterofagia) e organelas velhas (autofagia).",
+          "curiosidade": "A membrana do lisossomo é protegida contra autodigestão por uma camada interna rica em glicoproteínas.",
+          "referencia": "De Duve, C. (Prêmio Nobel de Fisiologia ou Medicina, 1974)."
+        },
+        {
+          "id": "membrana",
+          "nome": "Membrana Plasmática",
+          "analogia": "🛂 A Alfândega Seletiva",
+          "funcao": "Bicamada fosfolipídica fluida com proteínas integradas que controla a entrada e saída de íons e moléculas (permeabilidade seletiva).",
+          "curiosidade": "Segue o modelo do Mosaico Fluido proposto por Singer e Nicolson em 1972.",
+          "referencia": "Singer & Nicolson, Science, Vol. 175, 1972."
+        }
+      ]
+    },
+    "vegetal": {
+      "nome": "Célula Eucariótica Vegetal",
+      "descricao": "Caracterizada pela presença de parede celular celulósica, plastídios (como cloroplastos) e um grande vacúolo central.",
+      "organelas": [
+        {
+          "id": "parede",
+          "nome": "Parede Celular (Celulose)",
+          "analogia": "🏰 A Muralha Estrutural",
+          "funcao": "Camada rígida externa à membrana plasmática composta por microfibrilas de celulose; evita a lise osmótica e dá sustentação.",
+          "curiosidade": "Comunica-se com células vizinhas através de canais microscópicos chamados plasmodesmos.",
+          "referencia": "Raven, Evert & Eichhorn, Biologia Vegetal, 8ª ed., Cap. 3."
+        },
+        {
+          "id": "cloroplasto",
+          "nome": "Cloroplasto",
+          "analogia": "☀️ O Painel Fotovoltaico",
+          "funcao": "Realiza a fotossíntese: absorve energia luminosa via clorofila nos tilacoides e fixa CO₂ em glicose no Ciclo de Calvin.",
+          "curiosidade": "Assim como as mitocôndrias, os cloroplastos têm DNA próprio e se dividem por fissão binária.",
+          "referencia": "Taiz & Zeiger, Fisiologia e Desenvolvimento Vegetal, 6ª ed."
+        },
+        {
+          "id": "vacuolo",
+          "nome": "Vacúolo Central",
+          "analogia": "💧 O Reservatório Hidráulico",
+          "funcao": "Ocupa até 80% do volume celular; regula a pressão de turgor (mantendo a planta ereta), armazena água, íons e antocianinas.",
+          "curiosidade": "Quando uma planta murcha por falta d'água, é o vacúolo que perde volume e reduz a pressão contra a parede celular.",
+          "referencia": "Raven, Evert & Eichhorn, Biologia Vegetal, 8ª ed."
+        },
+        {
+          "id": "nucleo_veg",
+          "nome": "Núcleo Celular",
+          "analogia": "🏛️ O Centro de Comando Genético",
+          "funcao": "Controla a expressão gênica da planta, geralmente deslocado para a periferia devido ao tamanho do vacúolo central.",
+          "curiosidade": "Muitas plantas cultivadas (como o trigo e o morango) são poliploides, possuindo múltiplas cópias de seus cromossomos.",
+          "referencia": "Alberts et al., Biologia Molecular da Célula, 6ª ed."
+        }
+      ]
+    },
+    "procarionte": {
+      "nome": "Célula Procarionte (Bactéria)",
+      "descricao": "Organismo unicelular sem carioteca (núcleo definido) e sem organelas membranosas, com alta eficiência metabólica.",
+      "organelas": [
+        {
+          "id": "nucleoide",
+          "nome": "Nucleoide (DNA Circular)",
+          "analogia": "📜 O Pergaminho Mestre",
+          "funcao": "Região do citoplasma onde fica concentrado o cromossomo bacteriano único e circular, sem membrana envoltória.",
+          "curiosidade": "Como não há núcleo, a transcrição e a tradução ocorrem simultaneamente no citoplasma.",
+          "referencia": "Madigan et al., Microbiologia de Brock, 14ª ed."
+        },
+        {
+          "id": "plasmideo",
+          "nome": "Plasmídeo",
+          "analogia": "💾 O Disquete de Expansão",
+          "funcao": "Pequena molécula de DNA extracromossômico que confere vantagens adaptativas, como resistência a antibióticos.",
+          "curiosidade": "Pode ser transferido entre bactérias por conjugação e é a ferramenta base da engenharia genética (DNA recombinante).",
+          "referencia": "Madigan et al., Microbiologia de Brock, 14ª ed., Cap. 10."
+        },
+        {
+          "id": "ribossomo_prok",
+          "nome": "Ribossomos 70S",
+          "analogia": "⚙️ As Impressoras 3D de Proteínas",
+          "funcao": "Estruturas de RNA ribossômico e proteínas que leem o RNAm para sintetizar polipeptídeos.",
+          "curiosidade": "Por serem diferentes dos ribossomos 80S humanos, são alvos de antibióticos como a tetraciclina e a eritromicina.",
+          "referencia": "Tortora, Funke & Case, Microbiologia, 12ª ed."
+        },
+        {
+          "id": "flagelo",
+          "nome": "Flagelo Bacteriano e Cápsula",
+          "analogia": "🚤 O Motor Rotativo e Escudo",
+          "funcao": "O flagelo gira como uma hélice impulsionada por gradiente de prótons para quimiotaxia; a cápsula protege contra fagocitose.",
+          "curiosidade": "O motor do flagelo bacteriano pode girar a mais de 100.000 rotações por minuto.",
+          "referencia": "Berg, H. C., Annual Review of Biochemistry."
+        }
+      ]
+    }
+  },
+  "escalas": [
+    {
+      "nivel": 0,
+      "nome": "Formiga Operária",
+      "tamanho": "5 mm (5.000 µm)",
+      "diametroPx": 220,
+      "cor": "#FB5607",
+      "instrumento": "👁️ Olho Nu",
+      "descricao": "Escala macroscópica. Um inseto completo formado por milhões de células especializadas em tecidos."
+    },
+    {
+      "nivel": 1,
+      "nome": "Óvulo Humano (Oócito)",
+      "tamanho": "120 µm (0,12 mm)",
+      "diametroPx": 160,
+      "cor": "#FFB703",
+      "instrumento": "👁️ Limite do Olho Nu / Lupa",
+      "descricao": "A maior célula do corpo humano, visível como um minúsculo ponto a olho nu sob boa iluminação."
+    },
+    {
+      "nivel": 2,
+      "nome": "Célula Vegetal Típica",
+      "tamanho": "50 µm",
+      "diametroPx": 120,
+      "cor": "#8AC926",
+      "instrumento": "🔬 Microscópio Óptico",
+      "descricao": "Delimitada por parede rígida de celulose; seus cloroplastos verdes são facilmente observados ao microscópio escolar."
+    },
+    {
+      "nivel": 3,
+      "nome": "Hemácia (Glóbulo Vermelho)",
+      "tamanho": "7,5 µm",
+      "diametroPx": 80,
+      "cor": "#E63946",
+      "instrumento": "🔬 Microscópio Óptico",
+      "descricao": "Célula bicôncava anucleada especializada no transporte de oxigênio via hemoglobina."
+    },
+    {
+      "nivel": 4,
+      "nome": "Bactéria Escherichia coli",
+      "tamanho": "2 µm",
+      "diametroPx": 48,
+      "cor": "#00A896",
+      "instrumento": "🔬 Microscópio Óptico (Imersão)",
+      "descricao": "Procarionte habitante do intestino humano. Cerca de 1.000 vezes menor em volume que uma célula eucariótica."
+    },
+    {
+      "nivel": 5,
+      "nome": "Vírus Influenza / SARS-CoV-2",
+      "tamanho": "100 nm (0,1 µm)",
+      "diametroPx": 24,
+      "cor": "#8338EC",
+      "instrumento": "⚡ Microscópio Eletrônico",
+      "descricao": "Parasita intracelular obrigatório; atravessa filtros que retêm bactérias e exige feixe de elétrons para visualização."
+    },
+    {
+      "nivel": 6,
+      "nome": "Dupla Hélice de DNA",
+      "tamanho": "2,5 nm (largura)",
+      "diametroPx": 10,
+      "cor": "#3A86FF",
+      "instrumento": "⚡ Microscópio Eletrônico / Cristalografia",
+      "descricao": "Escala molecular. A largura da molécula que carrega o código genético de todos os seres vivos."
+    }
+  ]
+}
